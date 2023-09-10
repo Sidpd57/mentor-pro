@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Montserrat:wght@600;700&family=Poppins:wght@400;500;700;900&display=swap');
+
+*,*::after,*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    /* font-family: 'Homemade Apple', cursive; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+/* NAVIGATION BAR */
+
+.nav {
+    padding: 1rem 0;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__brand {
+    width: 15%;
+    font-family: 'Homemade Apple', cursive;
+
+    color: white;
+}
+
+.nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    font: inherit;
+    width: 57%;
+}
+
+.nav__link {
+    text-decoration: none;
+    text-transform: capitalize;
+
+    color: white;
+}
+
+.login {
+    padding: 0.25rem 0.8rem;
+    border-radius: 1.25rem;
+}
+
+.login:hover {
+    background-color: white;
+    color: black;
+}
+
+/* HOME PAGE  */
+
+
+/* HERO  */
+
+img {
+    max-width: 100%;
+}
+
+.hero {
+    width: 80%;
+    color: black;
+    background-color: white;
+
+    margin: 3rem auto 5rem;
+    padding: 4rem 5rem;
+    border-radius: 1.5rem;
+}
+
+.f-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__info {
+    width: 52%;
+}
+
+.hero__img {
+    width: 40%;
+}
+
+.hero__text {
+    padding: 1rem 0 3rem;
+}
+
+.hero__title {
+    font-size: 2.6rem;
+    line-height: 1.5;
+    margin: 1.8rem 0 1rem;
+}
+
+.hero__post-subtitle {
+    width: 93%;
+}
+
+.hero__pre-subtitle,
+.academic {
+    color: #e76933;
+}
+
+.academic {
+    text-decoration: underline;
+}
+
+/* CTA BTN  */
+
+.hero__cta {
+    width: 70%;
+}
+
+.hero__cta__btn {
+    font: inherit;
+    padding: 0.85rem 1.8rem;
+    border: none;
+    border-radius: 1.7rem;
+
+    background-color: #1e8a6f;
+    color: white;
+}
+
+.hero__cta__btn:hover {
+    opacity: 0.8;
+    box-shadow: 0px 0px 5px #1e8a6f;
+    cursor: pointer;
+}
+
+.hero__cta__btn p {
+    margin: 0;
+    margin-right: 0.5rem;
+}
+
+.hero__cta a {
+    color: black;
+}
+
+
