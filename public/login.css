@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Montserrat:wght@600;700&family=Poppins:wght@400;500;700;900&display=swap');
+
+*,*::after,*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* font-family: 'Homemade Apple', cursive; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: black;
+}
+
+input,button {
+    font: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.r-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.l-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth {
+    width: 450px;
+    background-color: #e3e8ea;
+    color: black;
+    border-radius: 0.8rem;
+    margin: 3rem auto;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.auth p {
+    margin: 0;
+}
+
+.auth__header {
+    font-size: 24px;
+    font-weight: 500;
+
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.auth__info {
+    text-align: left;
+}
+
+.input {
+    width: 100%;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.45rem ;
+    border: none;
+}
+
+.link {
+    color: rgba(0, 0, 0, 0.537);
+}
+
+.login {
+    padding: 0.35rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #1c77f2;
+}
+
+.login:hover {
+    background-color: #4e88d6;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.342);
+}
+
+/* .sigin {
+    background-color: #59bc2c;
+
+} */
+
+p {
+    color: rgba(0, 0, 0, 0.537);
+}
